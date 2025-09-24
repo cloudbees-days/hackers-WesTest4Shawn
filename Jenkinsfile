@@ -10,6 +10,7 @@ pipeline {
       }
       steps {
         echo 'Build Stage'
+        echo 'Testing 123'
       }
     }
     stage('Dev') {
@@ -21,6 +22,7 @@ pipeline {
       }
       steps {
         echo 'Dev Stage'
+        echo 'Testing 123'
       }
     }
     stage('Test') {
@@ -32,6 +34,7 @@ pipeline {
       }
       steps {
         echo 'Test Stage'
+        echo 'Testing 123'
       }
     }
     stage('Prod') {
@@ -43,6 +46,7 @@ pipeline {
       }
       steps {
         echo 'Prod Stage'
+        echo 'Testing 123'
       }
     }
   }
